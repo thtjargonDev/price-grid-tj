@@ -1,0 +1,36 @@
+@media only screen and (max-width:600px) {
+ html {
+  height: 145vh;
+ }
+ 
+  body {
+  font-size: 14px;
+ }
+
+  main {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+  }
+
+  .heading-tertiary {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  
+  .subheading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 13px;
+  }
+
+  .grid-4-cols {
+  grid-template-columns: 1fr;
+ }
+
+ .price-grid--grid-one {
+  background-color: white;
+  grid-column: 1;
+}
+}
